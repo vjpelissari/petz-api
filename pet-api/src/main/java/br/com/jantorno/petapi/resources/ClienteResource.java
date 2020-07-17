@@ -73,6 +73,7 @@ public class ClienteResource {
 		}
 		
 		@RequestMapping(value = "/{id}/pets", method = RequestMethod.POST)
+		@ApiOperation(value="Inclui um pet de um cliente.")
 		public ResponseEntity<Void> adicionarPet(@PathVariable("id") Long clienteId, @RequestBody Pet pet) {
 			clienteServices.salvarPet(clienteId, pet);
 			URI uri =  ServletUriComponentsBuilder.fromCurrentRequest().build().toUri();

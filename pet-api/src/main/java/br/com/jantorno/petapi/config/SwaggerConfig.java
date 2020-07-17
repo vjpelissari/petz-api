@@ -23,8 +23,8 @@ public class SwaggerConfig {
     public Docket productApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("br.com.jantorno.pet-api"))
-                .paths(regex("/aluno.*"))
+                .apis(RequestHandlerSelectors.basePackage("br.com.jantorno.petapi"))
+                .paths(regex("/.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
@@ -36,7 +36,7 @@ public class SwaggerConfig {
                 "API REST para controle de Clientes e Pets.",
                 "1.0",
                 "Terms of Service",
-                new Contact("Vinicius Pelissari Jantorno", "https://github.com/vjpelissari/pet-api",
+                new Contact("Vinicius Pelissari Jantorno", "https://github.com/vjpelissari/petz-api",
                         "vinicius.pelissari@gmail.com"),
                 "Apache License Version 2.0",
                 "https://www.apache.org/licesen.html", new ArrayList<VendorExtension>()
