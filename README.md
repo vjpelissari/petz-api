@@ -1,6 +1,6 @@
 # petz-api
 A aplicação consiste em uma API para fazer cadastros de clientes e pets.
-com as seguintes funcionalidades desenvolvidas:
+As seguintes funcionalidades foram desenvolvidas:
 - Inclusão de clientes
 - Inclusão de pets do cliente
 - Listagem de Todos os clientes
