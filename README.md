@@ -7,8 +7,8 @@ com as seguintes funcionalidades desenvolvidas:
 - Busca de um cliente
 - Listagem de Todos os pets
 - Busca de um pet
-- Atuaização do cliente
-- Atuazaliação do Pet
+- Atualização do cliente
+- Atualização do Pet
 - Exclusão do cliente
 
 # Tecnologias e frameworks utilizados
