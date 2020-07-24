@@ -34,6 +34,9 @@ As seguintes funcionalidades foram desenvolvidas:
 - GIT:
   Para controle de versão.
 
+- AWS:
+  Publicado na Amazon AWS.
+
 # Explicação dos pacotes criados:
 
 - br.com.jantorno.petapi:
