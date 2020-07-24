@@ -65,7 +65,7 @@ As seguintes funcionalidades foram desenvolvidas:
   - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets
 
 # Acesso ao Swagger
-  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/swagger-ui.html
+  - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/swagger-ui.html
 
 # Exemplos de Endpoints da API
 
