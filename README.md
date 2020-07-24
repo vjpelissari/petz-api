@@ -3,12 +3,12 @@ A aplicação consiste em uma API para fazer cadastros de clientes e pets.
 As seguintes funcionalidades foram desenvolvidas:
 - Inclusão de clientes
 - Inclusão de pets do cliente
-- Listagem de Todos os clientes
+- Listagem de todos os clientes
 - Busca de um cliente
 - Listagem de Todos os pets
 - Busca de um pet
 - Atualização do cliente
-- Atualização do Pet
+- Atualização do pet
 - Exclusão do cliente
 
 # Tecnologias e frameworks utilizados
@@ -55,7 +55,7 @@ As seguintes funcionalidades foram desenvolvidas:
   contem os controllers da aplicação, responsaveis pelo mapeamento dos recursos da API.
 
 - br.com.jantorno.petapi.services:
-  classes que contem a regra de negócio da aplicação
+  classes que contem a regra de negócio da aplicação.
 
 - br.com.jantorno.petapi.services.exceptions:
   classes de exceptions.
@@ -69,32 +69,32 @@ As seguintes funcionalidades foram desenvolvidas:
 
 # Exemplos de Endpoints da API
 
-- GET - http://petz-api.ddns.net:8080/clientes
+- GET - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes
   Retorna uma lista com informações de todos os clientes
 
-- GET - http://petz-api.ddns.net:8080/clientes/1
+- GET - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes/1
   Retorna informações do cliente de código 1
 
-- POST - http://petz-api.ddns.net:8080/clientes
+- POST - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes
   Inclui um Cliente
 
-- PUT - http://petz-api.ddns.net:8080/clientes/1
+- PUT - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes/1
   Atualiza o cliente de código 1.
 
-- DELETE - http://petz-api.ddns.net:8080/cliente/1
+- DELETE - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/cliente/1
   Exclui o cliente de código 1
   
-- POST - http://localhost:8081/clientes/1/pets
+- POST - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/1/pets
   Inclui um pet para o cliente de codigo 1
 
-- GET - http://petz-api.ddns.net:8080/pets
+- GET - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets
   Retorna uma lista com informações de todos os pets
 
-- GET - http://petz-api.ddns.net:8080/pets/1
+- GET - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets/1
   Retorna informações do pet de código 1
 
-- PUT - http://petz-api.ddns.net:8080/pets/1
+- PUT - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets/1
   Atualiza o cliente de código 1.
 
-- DELETE - http://petz-api.ddns.net:8080/pets/1
+- DELETE - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets/1
   Exclui o pet de código 1
