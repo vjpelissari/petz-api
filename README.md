@@ -61,10 +61,11 @@ As seguintes funcionalidades foram desenvolvidas:
   classes de exceptions.
 
 # Teste da API
-  http://petz-api.ddns.net:8080/
+  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes
+  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets
 
 # Acesso ao Swagger
-  http://petz-api.ddns.net:8081/swagger-ui.html
+  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/swagger-ui.html
 
 # Exemplos de Endpoints da API
 
