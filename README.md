@@ -61,8 +61,8 @@ As seguintes funcionalidades foram desenvolvidas:
   classes de exceptions.
 
 # Teste da API
-  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes
-  http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets
+  - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/clientes
+  - http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/pets
 
 # Acesso ao Swagger
   http://ec2-52-15-239-159.us-east-2.compute.amazonaws.com:8081/swagger-ui.html
