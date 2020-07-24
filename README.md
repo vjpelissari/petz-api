@@ -5,7 +5,7 @@ As seguintes funcionalidades foram desenvolvidas:
 - Inclusão de pets do cliente
 - Listagem de todos os clientes
 - Busca de um cliente
-- Listagem de Todos os pets
+- Listagem de todos os pets
 - Busca de um pet
 - Atualização do cliente
 - Atualização do pet
